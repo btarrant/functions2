@@ -31,17 +31,17 @@ x = number_of_great_lakes()
 print(x)
 # >>> Output = None
 
-# #6
+#6
 # def add(b,c):
 #     print(b+c)
 # print(add(1,2) + add(2,3))
+# >>> Output = None/Error
 
-
-# #7
-# def concatenate(b,c):
-#     return str(b)+str(c)
-# print(concatenate(2,5))
-
+#7
+def concatenate(b,c):
+    return str(b)+str(c)
+print(concatenate(2,5))
+# >>> Output = "25"
 
 # #8
 # def number_of_oceans_or_fingers_or_continents():
