@@ -17,12 +17,12 @@ def number_of_books_on_hold():
 print(number_of_books_on_hold())
 # >>> Output = 5
 
-# #4
-# def number_of_fingers():
-#     return 5
-#     print(10)
-# print(number_of_fingers())
-
+#4
+def number_of_fingers():
+    return 5
+    print(10)
+print(number_of_fingers())
+# >>> Output = 5
 
 # #5
 # def number_of_great_lakes():
