@@ -74,16 +74,16 @@ def addition(b,c):
 print(addition(3,5))
 # >>> Output = 8
 
-# #11
-# b = 500
-# print(b)
-# def foobar():
-#     b = 300
-#     print(b)
-# print(b)
-# foobar()
-# print(b)
-
+#11
+b = 500
+print(b)
+def foobar():
+    b = 300
+    print(b)
+print(b)
+foobar()
+print(b)
+# >>> Output = 500, 500, 300, 500
 
 # #12
 # b = 500
