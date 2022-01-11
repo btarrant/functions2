@@ -43,17 +43,17 @@ def concatenate(b,c):
 print(concatenate(2,5))
 # >>> Output = "25"
 
-# #8
-# def number_of_oceans_or_fingers_or_continents():
-#     b = 100
-#     print(b)
-#     if b < 10:
-#         return 5
-#     else:
-#         return 10
-#     return 7
-# print(number_of_oceans_or_fingers_or_continents())
-
+#8
+def number_of_oceans_or_fingers_or_continents():
+    b = 100
+    print(b)
+    if b < 10:
+        return 5
+    else:
+        return 10
+    return 7
+print(number_of_oceans_or_fingers_or_continents())
+# >>> Output = 100, 10
 
 # #9
 # def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
