@@ -109,15 +109,15 @@ b=foobar()
 print(b)
 # >>> Output = 500, 500, 300, 300
 
-# #14
-# def foo():
-#     print(1)
-#     bar()
-#     print(2)
-# def bar():
-#     print(3)
-# foo()
-
+#14
+def foo():
+    print(1)
+    bar()
+    print(2)
+def bar():
+    print(3)
+foo()
+# >>> Output = 1, 3, 2
 
 # #15
 # def foo():
